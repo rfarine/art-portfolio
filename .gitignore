@@ -1,3 +1,10 @@
+# env
+.env.local
+
+# vim
+*.un
+*.un~
+
 # dependencies
 node_modules
 .yarn/cache
