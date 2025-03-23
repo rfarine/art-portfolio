@@ -12,6 +12,7 @@ declare module 'vue' {
     EcosystemIcon: typeof import('./src/components/icons/EcosystemIcon.vue')['default']
     FrameworkLink: typeof import('./src/components/FrameworkLink.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    Home: typeof import('./src/components/Home.vue')['default']
     Island: typeof import('./node_modules/iles/dist/client/app/components/Island.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
