@@ -1,0 +1,21 @@
+{
+  "name": "iles-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "iles dev --open",
+    "build": "iles build",
+    "preview": "iles preview --open --port 5050",
+    "now": "npm run build && npm run preview",
+    "test": "iles test",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "engines": {
+    "node": ">= 20.0.0"
+  },
+  "devDependencies": {
+    "iles": "^0.10.0-beta.1",
+    "typescript": "^5.6",
+    "vitest": "^2.1.4",
+    "vue-tsc": "^2.1"
+  }
+}
